@@ -1,0 +1,160 @@
+ul,li {
+	list-style: none;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+}
+
+#listamenu{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+width: 100%;
+color: white;
+background-color: black;
+}
+
+div#logo{
+ height: 35px;
+ float: left;
+ margin: 4px;
+ margin-left: 30px;
+}
+
+/*#listamen{
+	margin-left: 1200px;
+}
+
+#listamen li{
+	margin-top: 22px;
+	width: 10px;
+	list-style: none;
+	display: inline-block;
+	color: white;
+}
+*/
+
+#nav{
+width: 45%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+a{
+margin: 0 3px;
+text-decoration: none;
+color: white;
+}
+
+#imgperfil img{
+border-radius: 500px;
+width: 50px;
+}
+
+*{
+font-family: Circular, spotify-circular,   Helvetica, Arial, sans-serif !important;
+}
+
+#azul{
+	background-color: rgb(45,70,185);
+	width: auto;
+	height: 500px;
+	margin-top: -22px;
+}
+#azul h1{
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+}
+#azul p{
+	color: white;
+	text-align: center;
+	padding-top: -60px; 
+}
+
+#menulateral{
+	background-color: rgb(28,28,28);
+	width: 300px;
+	height: 500px;
+}
+
+#imgperfil2{
+	width: 300px;
+	height: 140px;
+}
+#imgperfil2 .img2{
+border-radius: 500px;
+width: 110px;
+display: block;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.box{
+	display: flex;
+	flex-direction: row;
+}
+
+#menulateral button{
+	background-color: rgb(28,28,28);
+	text-align: left;
+	font-size: 20px;
+	border: none;
+	border-top: 3px solid rgb(31, 31, 31);
+	border-bottom: 3px solid rgb(31, 31, 31);
+	transition-duration: 0.5s;
+}
+
+button a{
+	color:rgb(145, 148, 150);
+	transition-duration: 0.5s;
+}
+
+#menulateral button:hover{
+	border-left: 4px solid rgb(30, 215, 96);
+}
+
+button a:hover{
+	color: rgb(255, 255, 255);
+}
+
+#dados{
+	width:100%;
+	height: 500px;
+}
+
+#dados h1{
+margin-left: 50px;
+font-weight: bold;
+}
+
+#dados h2{
+	margin-left: 50px;
+	margin-top: 50px;
+	font-weight: bold;
+}
+.perfil input{
+clear: both;
+}
+
+.perfilinput{
+	margin-left: 50px;
+	font-size: 19px;
+	font-weight: bold;
+	height: 50px;
+	width: 1100px;
+	border: none;
+	border-bottom: 3px solid rgb(217, 218, 220);
+}
+
+.perfilinput_email{
+	margin-bottom: 20px;
+}

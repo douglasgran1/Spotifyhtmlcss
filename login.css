@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  font-family: Circular, spotify-circular,   Helvetica, Arial, sans-serif !important;
+  }
+
+#logo{
+  width: 100%;
+  height: 120px;
+  border-bottom:1px solid black;
+}
+
+#logo img{
+  height: 80px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+#socialmedia h3{
+  text-align: center;
+  margin-top: 30px;
+}
+#socialmedia{
+  width: 100%;
+  height: 150px;
+}
+#facebook{
+  width: 500px;
+  height: 50px;
+  background-color: rgb(59, 89, 152);
+  border-radius: 500px;
+  margin: 0 auto;
+  display:flex;
+}
+#facebook img{
+margin-top: 1px;
+margin-left: 0px;
+}
+
+#facebook a{
+  
+  margin: 0 auto;
+  margin-top: 12px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+#apple{
+  width: 500px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+#apple img{
+  height: 35px;
+}
+
+#apple a{
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 12px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+}
+#box{
+  display: flex;
+  width: 100%;
+  height: 10px;
+}
+
+#box .linha{
+  width: 215px;
+  border-bottom:1px solid rgb(217, 218, 220);
+}
+#box .linha_1{
+margin-left: 35%;
+}
+#ou{
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 30px;
+}
+#ou p{
+  margin-top: 0;
+  font-weight: bold;
+}
+#login{
+  margin-top: 25px;
+width: 100%;
+height: 150px;
+}
+
+form #email{
+height: 30px;
+width: 500px;
+display: flex;
+margin: 0 auto;
+}
+
+form #senha{
+height: 30px;
+width: 500px;
+display: flex;
+margin: 0 auto;
+margin-top: 10px;
+}
+
+form #entrar{
+display: flex;
+  margin-left: 53%;
+  background-color: rgb(29, 185, 84);
+  border-radius: 500px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 15px;
+  border: none;
+}
+
+#entrar a{
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.senha{
+  width: 100%;
+  height: 10px;
+}
+.senha a{
+  display: block;
+margin-left: 45%;
+  text-decoration: none;
+  color: rgb(51, 197, 184);
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#increver{
+  width: 100%;
+  height: auto;
+}
+
+#inscrever h3{
+  color: black;
+  display: block;
+  margin-left: 45%;
+  margin-top: 100px;
+}
+
+#inscreverspotify{
+  border-radius: 500px;
+  width: 500px;
+  height: 50px;
+  border: 1px solid rgb(97, 100, 103);
+  background-color: white;
+  display: flex;
+  margin: 0 auto;
+}
+#inscreverspotify a{
+  color: rgb(97, 100, 103);
+  text-align: center;
+  display: absolute;
+  margin: 0 auto;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15pxs;
+}
